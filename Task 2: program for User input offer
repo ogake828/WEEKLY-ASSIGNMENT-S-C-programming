@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+
+float height;
+double bankBalance;
+char phoneNumber[10];
+
+printf("Enter the height(in meters or centimetres):");
+scanf("%f", &height);
+
+printf("Enter your bankBalance(in Kenya shillings):");
+scanf("%d",&bankBalance);
+
+printf("Enter your phoneNumber");
+scanf("%d",phoneNumber);
+printf("\nUser Details\n");
+
+printf("Height: %.2f\n",height);
+printf("bankBalance: Ksh %.2f\n");
+printf("phoneNumber:%c\n");
+return 0;
+}
+
+    
